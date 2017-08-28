@@ -111,6 +111,7 @@
                 })
             }
         </script>
+        <div class="alert alert-info">Проверим наш репозиторий</div>
     <div class="alert alert-danger">
         <?php echo $notice; ?>
     </div>
