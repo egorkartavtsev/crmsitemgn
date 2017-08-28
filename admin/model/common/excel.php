@@ -2,7 +2,7 @@
     class ModelCommonExcel extends Model {
         
         public function confirmline($data) {
-            
+            //проверка строки на ошибки
             $queryMAN = $this->db->query("SELECT id AS manufacturer_id FROM ".DB_PREFIX."brand "
                          . "WHERE name = '".$data[3]."'");
             $queryMOD = $this->db->query("SELECT id AS model_id FROM ".DB_PREFIX."brand "
